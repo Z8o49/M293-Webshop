@@ -26,3 +26,5 @@ build_pages.py             Generiert die Produktseiten aus den Produktdaten
 ## Website
 
 Die Website läuft unter [folgender URL.](https://z8o49.github.io/M293-Webshop/index.html)
+
+Mein Repository ist unter [folgender URL.](https://github.com/z8o49/M293-Webshop)
