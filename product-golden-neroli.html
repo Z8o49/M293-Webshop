@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Golden Neroli by L’Essence Parfumerie.">
+  <title>Golden Neroli | L’Essence Parfumerie</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="lux-loader" aria-hidden="true"><div><strong>L’ESSENCE</strong><span>Crafting Emotion</span></div></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<header class="site-header" data-header>
+  <a class="brand" href="index.html" aria-label="L’Essence Startseite"><span>L’ESSENCE</span><small>Parfumerie</small></a>
+  <button class="nav-toggle" type="button" aria-label="Menü öffnen" aria-expanded="false"><span></span><span></span></button>
+  <nav class="nav" aria-label="Hauptnavigation">
+    <a href="index.html" >Home</a>
+    <a href="collection.html" aria-current="page">Collection</a>
+    <a href="about.html" >House</a>
+    <a href="contact.html" >Contact</a>
+  </nav>
+</header>
+<main class="page">
+<section class="section product-hero reveal">
+  <div class="product-visual"><img src="images/golden-neroli.jpg" alt="Golden Neroli perfume bottle and visual artwork"></div>
+  <div class="product-info">
+    <p class="eyebrow">Eau de Parfum · 100 ml</p>
+    <h1>Golden Neroli</h1>
+    <p class="lead">A crisp, sunlit fragrance with neroli, sparkling citrus and airy white tea.</p>
+    <p>Neroli · Citrus · White Tea</p>
+    <div class="scent-notes">
+      <button class="note-pill" type="button"><span>Top</span><small>Bitter Orange · Lemon Zest</small></button>
+      <button class="note-pill" type="button"><span>Heart</span><small>Neroli · White Tea</small></button>
+      <button class="note-pill" type="button"><span>Base</span><small>Clean Musk · Cedar</small></button>
+    </div>
+    <div class="price price--large">CHF 225</div>
+    <div class="actions"><a class="btn btn--gold" href="#order">Order now</a><a class="btn btn--ghost" href="collection.html">Back to collection</a></div>
+  </div>
+</section>
+<section class="section product-media reveal">
+  <div>
+    <p class="eyebrow">Fragrance film</p>
+    <h2>See the mood of Golden Neroli.</h2>
+    <p>Golden Neroli is the bright morning scent of the collection: clean, energetic and precise.</p>
+  </div>
+  <video controls muted playsinline preload="metadata" poster="images/golden-neroli.jpg">
+    <source src="videos/golden-neroli.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</section>
+<section class="section split reveal">
+  <div><p class="eyebrow">Composition</p><h2>A polished structure from first impression to final trail.</h2></div>
+  <p>Each note is selected for balance: a memorable opening, an elegant heart and a refined base that stays close to the skin while leaving a quiet signature.</p>
+</section>
+<section class="section order-section reveal" id="order">
+  <div><p class="eyebrow">Online order</p><h2>Order Golden Neroli directly.</h2><p>Fill in the form and the atelier will confirm availability, payment and delivery by email.</p></div>
+  <form class="card form order-form" data-form-message="Thank you. Your order request for Golden Neroli was recorded.">
+    <input type="hidden" name="product" value="Golden Neroli">
+    <div class="field-grid">
+      <label>Product<input type="text" value="Golden Neroli" readonly></label>
+      <label>Size<select name="size"><option>100 ml · CHF 225</option><option>50 ml · sample request</option></select></label>
+      <label>Quantity<input type="number" name="quantity" min="1" max="5" value="1" required></label>
+      <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+    </div>
+    <label>Full name<input type="text" name="name" placeholder="Your full name" required></label>
+    <label>Delivery address<textarea name="address" rows="3" placeholder="Street, postcode, city" required></textarea></label>
+    <label>Message<textarea name="message" rows="3" placeholder="Gift wrapping, pickup or special wishes"></textarea></label>
+    <button class="btn btn--gold" type="submit">Send order request</button>
+    <p class="form-status" aria-live="polite"></p>
+  </form>
+</section>
+</main><footer class="footer">
+  <div><strong>L’ESSENCE</strong><p>Fine fragrance atelier · Zürich · Since 2026</p></div>
+  <p>© 2026 L’Essence Parfumerie. All rights reserved.</p>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
