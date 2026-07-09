@@ -25,5 +25,4 @@ build_pages.py             Generiert die Produktseiten aus den Produktdaten
 
 ## Website
 
-Die Website ist aktuell noch nicht veröffentlicht.
-"# M293-Webshop" 
+Die Website läuft unter [folgender URL.](https://z8o49.github.io/M293-Webshop/index.html)
